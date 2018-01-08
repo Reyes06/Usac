@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="Usuario">
+      <implementation-class>Servicios.Usuario</implementation-class>
+    </service>
+    <service name="Tarea">
+      <implementation-class>Servicios.Tarea</implementation-class>
+    </service>
+    <service name="Conocimiento">
+      <implementation-class>Servicios.Conocimiento</implementation-class>
+    </service>
+    <service name="Asociacion">
+      <implementation-class>Servicios.Asociacion</implementation-class>
+    </service>
+    <service name="Publicacion">
+      <implementation-class>Servicios.Publicacion</implementation-class>
+    </service>
+    <service name="UsuariosYAsociaciones">
+      <implementation-class>Servicios.UsuariosYAsociaciones</implementation-class>
+    </service>
+    <service name="EstadosYComentarios">
+      <implementation-class>Servicios.EstadosYComentarios</implementation-class>
+    </service>
+    <service name="Tareas">
+      <implementation-class>Servicios.Tareas</implementation-class>
+    </service>
+    <service name="Proyectos">
+      <implementation-class>Servicios.Proyectos</implementation-class>
+    </service>
+    <service name="Proyecto">
+      <implementation-class>Servicios.Proyecto</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
